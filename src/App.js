@@ -22,9 +22,7 @@ class App extends Component {
     return (
       <Fragment>
         <Navbar />
-        <div className='container'>
-          <Articles articles={this.state.articles} />
-        </div>
+        <Articles articles={this.state.articles} />
       </Fragment>
     );
   }
