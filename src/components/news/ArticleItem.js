@@ -10,7 +10,7 @@ const ArticleItem = ({ article }) => {
         <h5 className='card-title'>{article.title}</h5>
         <p className='card-text'>{article.description}</p>
 
-        <footer class='blockquote-footer text-right'>
+        <footer className='blockquote-footer text-right'>
           <small>
             {article.author} in{' '}
             <cite title='Source Title'>{article.source.name}</cite>

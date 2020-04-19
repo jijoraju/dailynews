@@ -6,7 +6,7 @@ export default class Articles extends Component {
     return (
       <div className='container-fluid mt-4 card-columns'>
         {this.props.articles.map((article) => (
-          <ArticleItem key={article.source.key} article={article} />
+          <ArticleItem key={article.title} article={article} />
         ))}
       </div>
     );
